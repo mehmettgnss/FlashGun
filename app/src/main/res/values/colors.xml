@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#eeeded</color>
+    <color name="colorPrimaryDark">#3b5999</color>
+    <color name="colorAccent">#3b5999</color>
+    <color name="transparent">#10ffffff</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="link">#0a80d1</color>
+    <color name="timestamp">#a0a3a7</color>
+    <color name="name">#125688</color>
+    <color name="ActionBarColor">#f13f3f</color>
+    <color name="ImageGridItemBackground">#edeeee</color>
+    <color name="translucent_black_bg">#65000000</color>
+    <color name="social_black">#34465d</color>
+    <color name="social_dark">#131418</color>
+    <color name="social_gray">#424242</color>
+    <color name="social_raddit">#0077B5</color>
+    <color name="social_pinterest">#bd081c</color>
+    <color name="social_quora">#b92b27</color>
+    <color name="social_linkıdin">#0077B5</color>
+    <color name="color_option_menu">#FF3990</color>
+    <color name="filter_label_normal">#8A8889</color>
+    <color name="filter_label_selected">#221F20</color>
+    <color name="social_line">#00c300</color>
+
+
+</resources>

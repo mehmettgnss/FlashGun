@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorAccent">
+
+    <RelativeLayout
+        android:id="@+id/camera_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <SurfaceView
+            android:id="@+id/preview"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+
+        <EditText
+            android:id="@+id/findusers"
+            android:layout_width="335dp"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="-32dp"
+            android:layout_toStartOf="@+id/img_switch_camera"
+            android:background="@color/transparent"
+            android:drawableLeft="@drawable/search"
+            android:focusable="false"
+            android:hint="  Find Users"
+            android:onClick="findusers"
+            android:paddingLeft="15dp"
+            android:textColor="@color/colorPrimary"
+            android:textColorHint="@color/colorPrimary" />
+
+        <Button
+            android:id="@+id/profile"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="14dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/person"
+            android:shadowColor="@color/colorPrimary"
+            android:textColor="@color/colorPrimary"
+            android:textColorHint="@color/colorPrimary"
+            android:textColorLink="@color/colorPrimary" />
+
+        <ImageView
+            android:id="@+id/img_switch_camera"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="25dp"
+            android:layout_marginRight="40dp"
+            android:padding="10dp"
+            android:src="@drawable/ic_camera_switch_shadow_48dp" />
+
+        <com.simcoder.snapchatclone.fragment.CircleProgressBar
+            android:id="@+id/custom_progressBar"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="10dp"
+            app:progress="0"
+            app:progressBarThickness="7dp" />
+
+        <ImageView
+            android:id="@+id/img_flash_control"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="25dp"
+            android:layout_marginLeft="40dp"
+            android:onClick="FlashControl"
+            android:padding="10dp"
+            android:src="@drawable/ic_flash_off_shadow_48dp" />
+    </RelativeLayout>
+
+
+</FrameLayout>

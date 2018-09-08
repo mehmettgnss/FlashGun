@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "199251234213",
+    "firebase_url": "https://flashgun-b7fe1.firebaseio.com",
+    "project_id": "flashgun-b7fe1",
+    "storage_bucket": "flashgun-b7fe1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:199251234213:android:dce2c608459fde7f",
+        "android_client_info": {
+          "package_name": "com.simcoder.snapchatclone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "199251234213-jcuumdl7b7ehm61cu4rgq769ld568ko3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAD0N1j33pVBLjhpCdBHq9ByZv47VKTIWA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
