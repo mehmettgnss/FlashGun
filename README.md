@@ -5,7 +5,7 @@ Features include:
 2. Real time story sharing
 3. Following
 4. Music advice with emotion analysis
-
+5. Music library
 
 
 
